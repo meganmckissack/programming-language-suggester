@@ -38,9 +38,10 @@ $(document).ready(function(){
        return 'JavaScript'
       }
     }
-    QuizResult = result(finalScore);
-    
-   
+    quizResult = result(finalScore);
+    $('#surveyResult').text(quizResult);
   });
-
+  $('#reloadQuiz').click(function(){
+    window.location.reload();
+  })
 });
