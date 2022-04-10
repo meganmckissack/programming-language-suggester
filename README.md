@@ -17,8 +17,6 @@ _Quiz to determine what programming language you should use_
 - _$ git clone this repository_
 - _Open files in your favorite text editor or IDE_
 
-## Hosted Site
-
 ## Known Bugs
 
 - _form submit button doesn't align properly_
