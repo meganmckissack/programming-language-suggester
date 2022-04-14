@@ -4,7 +4,7 @@
 
 ## Description
 
-_Quiz to determine what programming language you should use_
+_The Language Suggester is a quiz to determine what programming language you should use based on the answers to some nonsensicle and fun questions_
 
 ## Technologies Used
 
@@ -14,8 +14,15 @@ _Quiz to determine what programming language you should use_
 
 ## Setup/Installation Requirements
 
-- _$ git clone this repository_
+- _clone or download this repository to your computer_
 - _Open files in your favorite text editor or IDE_
+  _To view the quiz application, open the index.html file in your web browser_
+
+- _To test the quiz functionality:_
+
+  - _selecting 3 of the first answer of each question shoud return Ruby as the answer when submitted_
+  - _selecting 3 of the second answer of each question shoud return JavaScript as the answer when submitted_
+  - _selecting 4 of the third answer of each question shoud return Python as the answer when submitted_
 
 ## Known Bugs
 
