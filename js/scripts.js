@@ -20,25 +20,24 @@ $(document).ready(function(){
       }
     }
   
-    Quest1Score = tally(survey1Response, score);
-    Quest2Score = tally(survey2Response, score);
-    Quest3Score = tally(survey3Response, score);
-    Quest4Score = tally(survey4Response, score);
-    Quest5Score = tally(survey5Response, score);
+    let quest1Score = tally(survey1Response, score);
+    let quest2Score = tally(survey2Response, score);
+    let quest3Score = tally(survey3Response, score);
+    let quest4Score = tally(survey4Response, score);
+    let quest5Score = tally(survey5Response, score);
     
-    let finalScore = (Quest1Score + Quest2Score + Quest3Score + Quest4Score + Quest5Score);
-     
+    let finalScore = (quest1Score + quest2Score + quest3Score + quest4Score + quest5Score);
   
-     function result (resScore) {
+    function result (resScore) {
       if(resScore <= 2) {
-       return 'Python'
+        return 'Python'
       } else if(resScore >=3 && resScore <= 5) {
-       return 'Ruby'
+        return 'Ruby'
       } else {
-       return 'JavaScript'
+        return 'JavaScript'
       }
     }
-    quizResult = result(finalScore);
+    let quizResult = result(finalScore);
     $('#surveyResult').text(quizResult);
   });
   $('#reloadQuiz').click(function(){
