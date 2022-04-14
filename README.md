@@ -4,7 +4,7 @@
 
 ## Description
 
-_The Language Suggester is a quiz to determine what programming language you should use based on the answers to some nonsensicle and fun questions_
+_The Language Suggester is a quiz to determine what programming language you should use based on the answers to some nonsensical and fun questions_
 
 ## Technologies Used
 
